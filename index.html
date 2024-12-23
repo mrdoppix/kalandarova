@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reklama Agentligi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Reklama Agentligi</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#services">Xizmatlar</a></li>
+                    <li><a href="#about">Biz Haqimizda</a></li>
+                    <li><a href="#developer">Dasturchi</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Xizmatlar</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Brending</h3>
+                    <p>Kompaniyangizning brend imidjini shakllantiramiz.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Marketing Strategiya</h3>
+                    <p>Yuqori darajadagi marketing strategiyalarini ishlab chiqamiz.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Reklama Kampaniyasi</h3>
+                    <p>Ommaviy va ijtimoiy tarmoqlarda reklama kampaniyalari olib boramiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Biz Haqimizda</h2>
+            <p>Biz reklama sohasida professional xizmatlarni taqdim etamiz. Mijozlarimizning ehtiyojlarini qondirish bizning asosiy maqsadimizdir.</p>
+        </div>
+    </section>
+
+    <section id="developer" class="section">
+        <div class="container">
+            <h2>Dasturchi Haqida</h2>
+            <div class="developer-info">
+                <img src="developer.jpg" alt="Dasturchi" class="developer-img">
+                <div>
+                    <h3>Kalandarova Gulmera</h3>
+                    <p>Men veb-dasturchi, veb-sayt yaratish, va foydalanuvchi tajribasini yaxshilash bo'yicha tajribaga egaman. Reklama agentligi loyihasi bilan tajribamni kengaytirib kelmoqdaman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Aloqa</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Ismingiz" required>
+                <input type="email" id="email" placeholder="Emailingiz" required>
+                <textarea id="message" placeholder="Xabaringizni yozing..." required></textarea>
+                <button type="submit">Yuborish</button>
+            </form>
+            <p id="confirmation-message" style="display:none; color:green;">Xabaringiz yuborildi!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Reklama Agentligi. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
